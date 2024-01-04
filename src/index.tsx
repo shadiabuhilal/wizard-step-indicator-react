@@ -1,27 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Fragment } from 'react';
-
-type ReactCSSProperties = {
-    appearance?: string;
-    outline?: string;
-    overflow?: string;
-    display?: string;
-    margin?: number | string,
-    padding?: number | string,
-    width?: string;
-    height?: string;
-    fontSize?: string;
-    transition?: string;
-    borderRadius?: string;
-    border?: string;
-    opacity?: string;
-    cursor?: string
-}
-
+import type * as CSS from 'csstype';
 
 type CheckIconProps = {
-    style: ReactCSSProperties, 
+    style?: CSS.Properties, 
     className: string
 }
 
@@ -43,22 +26,9 @@ const CheckIcon = ({style, className}: CheckIconProps) => (
     </svg>
 );
 
-type WizardStepIndicatorStyleObj = {
-    margin?: string,
-    margingTop?: string,
-    marginLeft?: string,
-    marginRight?: string,
-    marginBottom?: string,
-    padding?: string,
-    paddingTop?: string,
-    paddingLeft?: string,
-    paddingRight?: string,
-    paddingBottom?: string
-}
-
 export interface WizardStepIndicatorProps {
     id?: string;
-    style?: WizardStepIndicatorStyleObj;
+    style?: CSS.Properties;
     className?: string;
     canClickOnForwardSteps?: boolean;
     stepsCount: number;
@@ -69,6 +39,7 @@ export interface WizardStepIndicatorProps {
     lineBetweenStepsClassName?: string;
     activeClassName?: string;
     inactiveClassName?: string;
+    checkIconClassName?: string;
     onClick: (index: number) => void;
 }
 
@@ -85,6 +56,7 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
     lineBetweenStepsClassName,
     activeClassName,
     inactiveClassName,
+    checkIconClassName,
     onClick
 }) => {
 
@@ -97,20 +69,20 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
     const inactiveColor =  '#000000';
 
 
-    const commonStyleObj: ReactCSSProperties = {
+    const commonStyleObj: CSS.Properties = {
         display: 'inline-block',
         width: '1.25rem',
         height: '1.25rem',
         fontSize: '0.75rem',
     };
 
-    let btnStepStyleObj: ReactCSSProperties = {
+    let btnStepStyleObj: CSS.Properties = {
         ...commonStyleObj,
         overflow: 'hidden',
         appearance: 'none',
         border: 'none',
-        margin: 0,
-        padding: 0,
+        margin: '0',
+        padding: '0',
         cursor: 'pointer',
         outline: 'none',
         transition: 'all 0.3s ease',
@@ -120,13 +92,13 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
     if (activeClassName) {
         btnStepStyleObj = {
             overflow: 'hidden',
-            margin: 0,
-            padding: 0,
+            margin: '0',
+            padding: '0',
             cursor: 'pointer',
         };
     }
 
-    let lineBetweenStepsStyleObj: ReactCSSProperties = {
+    let lineBetweenStepsStyleObj: CSS.Properties = {
         ...commonStyleObj,
         height: '0.2rem'
     };
@@ -142,12 +114,12 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
         btnStepStyleObj.cursor = lineBetweenStepsStyleObj.cursor = 'not-allowed';
     }
 
-    let checkIconStyleObj: ReactCSSProperties = {
+    let checkIconStyleObj: CSS.Properties = {
         ...commonStyleObj,
         borderRadius: '50%'
     };
 
-    if (btnStepClassName) {
+    if (checkIconClassName) {
         checkIconStyleObj = {
             border: 'none'
         };
@@ -166,7 +138,7 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
             const isStepBarActive = index < currentStepIndex;
             const title = index + 1;
 
-            const stepItem = useCheckPassedStep ? <CheckIcon style={checkIconStyleObj} className={classNames(btnStepClassName, activeClassName)} />  : title;
+            const stepItem = useCheckPassedStep ? <CheckIcon style={checkIconStyleObj} className={classNames(checkIconClassName)} />  : title;
 
             const backgroundColor = isActive ? 
                 (activeClassName ? undefined : activeBgColor) : 
@@ -195,7 +167,7 @@ const WizardStepIndicator: React.FC<WizardStepIndicatorProps> = ({
                     ...btnStepStyleObj,
                     backgroundColor,
                     color,
-
+                    cursor: disabled || isNavBtnDisabled ? 'not-allowed' : 'pointer',
                 }}
                 onClick={()=> onClick(index)}
             >{isStepBarActive ? stepItem : title}</button>

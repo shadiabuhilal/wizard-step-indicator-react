@@ -1,0 +1,7 @@
+node_modules
+coverage
+docs
+.editorconfig
+.DS_Store
+.gitignore
+index.cjs

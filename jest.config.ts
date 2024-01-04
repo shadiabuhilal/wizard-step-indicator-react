@@ -6,6 +6,7 @@ const config: Config.InitialOptions = {
     setupFilesAfterEnv: ['./tests/setupTests.ts'],
     moduleFileExtensions: ['js', 'tsx'],
     injectGlobals: true,
+    collectCoverage: true,
     collectCoverageFrom: [
         'src/**/*.tsx',
         '!**/node_modules/**',

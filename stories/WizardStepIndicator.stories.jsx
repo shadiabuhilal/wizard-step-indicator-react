@@ -20,25 +20,26 @@ const onClick = (index)=> { console.log(`Clicked on step index ${index}`);};
 export const DefaultProps = {
     args: {
         stepsCount: 5,
-        currentStepIndex: 0,
+        currentStepIndex: 2,
         onClick
     },
 };
 
 export const AllProps = {
     args: {
-        id: 'noop-id',
+        id: 'foo-id',
         style: {},
         className: '',
         canClickOnForwardSteps: false,
         stepsCount: 5,
-        currentStepIndex: 3,
+        currentStepIndex: 2,
         useCheckPassedStep: true,
         disabled: false,
         btnStepClassName: 'wsi-btn-step',
         lineBetweenStepsClassName: 'wsi-line-between-steps',
         activeClassName: 'wsi-active-step',
         inactiveClassName: 'wsi-inactive-step',
+        checkIconClassName: 'wsi-check-icon',
         onClick
     },
 };
@@ -77,7 +78,7 @@ export const InteractiveDemo = {
         </div>;
     },
     args: {
-        id: 'noop-id',
+        id: 'foo-id',
         style: {},
         className: '',
         canClickOnForwardSteps: false,
@@ -89,5 +90,6 @@ export const InteractiveDemo = {
         lineBetweenStepsClassName: '',
         activeClassName: '',
         inactiveClassName: '',
+        checkIconClassName: '',
     }
 };

@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WizardStepIndicator WizardStepIndicator all props: after click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    class="foo-classname"
+    id="foo-id"
+    style="margin: 10px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class="foo-btn-step foo-active"
+      data-testid="wsi-0"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      <svg
+        class="foo-check-icone"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13l4 4L19 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <span
+      class="foo-line-between-steps foo-active"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-active"
+      data-testid="wsi-1"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      2
+    </button>
+    <span
+      class="foo-line-between-steps foo-inactive"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-inactive"
+      data-testid="wsi-2"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      3
+    </button>
+    <span
+      class="foo-line-between-steps foo-inactive"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-inactive"
+      data-testid="wsi-3"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      4
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator all props: before click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    class="foo-classname"
+    id="foo-id"
+    style="margin: 10px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class="foo-btn-step foo-active"
+      data-testid="wsi-0"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      <svg
+        class="foo-check-icone"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13l4 4L19 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <span
+      class="foo-line-between-steps foo-active"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-active"
+      data-testid="wsi-1"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      2
+    </button>
+    <span
+      class="foo-line-between-steps foo-inactive"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-inactive"
+      data-testid="wsi-2"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      3
+    </button>
+    <span
+      class="foo-line-between-steps foo-inactive"
+      style="display: inline-block;"
+    />
+    <button
+      class="foo-btn-step foo-inactive"
+      data-testid="wsi-3"
+      style="overflow: hidden; margin: 0px; padding: 0px; cursor: pointer;"
+    >
+      4
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator disabled: after click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator disabled: before click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; opacity: 0.5; cursor: not-allowed; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; opacity: 0.5; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator start with index 0, should go to step index 3 after onClick with canClickOnForwardSteps=true: after click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator start with index 0, should go to step index 3 after onClick with canClickOnForwardSteps=true: before click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator when useCheckPassedStep=false, should render numbers without icons: after click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator when useCheckPassedStep=false, should render numbers without icons: before click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator with default props start with index 0, should NOT go to step index 1 after onClick: after click on wsi-1 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator with default props start with index 0, should NOT go to step index 1 after onClick: before click on wsi-1 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      1
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator with default props start with index 1, should go to step index 0 after onClick: after click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      <svg
+        class=""
+        fill="none"
+        stroke="currentColor"
+        style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; border-radius: 50%;"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13l4 4L19 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`WizardStepIndicator WizardStepIndicator with default props start with index 1, should go to step index 0 after onClick: before click on wsi-0 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
+  >
+    <button
+      class=""
+      data-testid="wsi-0"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      <svg
+        class=""
+        fill="none"
+        stroke="currentColor"
+        style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; border-radius: 50%;"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13l4 4L19 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    />
+    <button
+      class=""
+      data-testid="wsi-1"
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: pointer; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(66, 153, 225); color: rgb(255, 255, 255);"
+    >
+      2
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-2"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      3
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-3"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      4
+    </button>
+    <span
+      class=""
+      style="display: inline-block; width: 1.25rem; height: 0.2rem; font-size: 0.75rem; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    />
+    <button
+      class=""
+      data-testid="wsi-4"
+      disabled=""
+      style="display: inline-block; width: 1.25rem; height: 1.25rem; font-size: 0.75rem; overflow: hidden; appearance: none; margin: 0px; padding: 0px; cursor: not-allowed; outline: none; transition: all 0.3s ease; border-radius: 50%; background-color: rgb(237, 242, 247); color: rgb(0, 0, 0);"
+    >
+      5
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "jsx": "react",
-    "allowJs": false,
-    "strict": true,
-    "noEmit": true,
+    "baseUrl": "./src/",
+    "outDir": "./dist/",
+    "lib": ["dom", "dom.iterable"],
+    "sourceMap": false,
+    "declaration": true,
     "esModuleInterop": true,
-    "allowImportingTsExtensions": true
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["src/**/*.tsx"],
   "exclude": ["node_modules"]

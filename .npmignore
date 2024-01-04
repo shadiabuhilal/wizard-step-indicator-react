@@ -1,0 +1,13 @@
+tests/
+stories/
+coverage/
+docs/
+.nyc_output
+.jsdoc.json
+README.md
+.releaserc.json
+.github/
+.vscode/
+jest.config.ts
+.storybook/
+tsconfig.json
