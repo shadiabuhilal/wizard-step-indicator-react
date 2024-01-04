@@ -1,0 +1,18 @@
+.wsi-btn-step { 
+    width: 40px;
+    height: 40px;
+    background-color: #ffff00;
+}
+
+.wsi-line-between-steps {
+    height: 15px;
+    width: 70px;
+}
+
+.wsi-active-step {
+    background-color: #ffff00;
+}
+
+.wsi-inactive-step {
+    background-color: #888;
+}
