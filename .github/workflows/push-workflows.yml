@@ -47,6 +47,7 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}
       run: npx semantic-release
   Storybook:
+    needs: Publish
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -62,4 +63,4 @@ jobs:
           install_command: npm ci
           build_command: npm run build-storybook
           path: storybook-static
-          checkout: false
+          checkout: true
