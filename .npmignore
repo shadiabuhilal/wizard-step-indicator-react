@@ -11,3 +11,5 @@ README.md
 jest.config.ts
 .storybook/
 tsconfig.json
+rollup.config.js
+wizard-step-indicator-react-*.tgz

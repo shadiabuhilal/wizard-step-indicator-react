@@ -2,17 +2,18 @@
   "name": "wizard-step-indicator-react",
   "version": "1.0.0",
   "description": "Wizard Step Indicator for React",
-  "main": "index.js",
   "type": "module",
+  "main": "./src/index",
+  "types": "./dist/esm/index",
   "exports": {
-    "import": "./index.js",
-    "require": "./index.cjs"
+    "import": "./dist/esm/index",
+    "require": "./dist/cjs/index"
   },
   "scripts": {
     "lint": "eslint .",
     "p1retest": "npm run lint",
     "test": "jest ./tests/index.spec.tsx",
-    "build": "tsc ./src/index.tsx",
+    "build": "rollup -c",
     "commit": "git-cz",
     "install-peer-dep": "npm i react classnames --no-save",
     "storybook": "storybook dev -p 6006",
@@ -38,12 +39,16 @@
     "url": "https://github.com/shadiabuhilal/wizard-step-indicator-react/issues"
   },
   "homepage": "https://github.com/shadiabuhilal/wizard-step-indicator-react#readme",
+  "dependencies": {
+    "csstype": "^3.1.3",
+    "classnames": ">=2.*.*"
+  },
   "peerDependencies": {
-    "classnames": "2.*.*",
-    "react": "18.*.*"
+    "react": ">=18.*.*"
   },
   "devDependencies": {
     "@jest/types": "^29.6.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/release-notes-generator": "^12.1.0",
@@ -61,7 +66,6 @@
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
     "commitizen": "^4.3.0",
-    "csstype": "^3.1.3",
     "cz-conventional-changelog": "^3.3.0",
     "docdash": "^2.0.2",
     "eslint": "^8.55.0",
@@ -71,10 +75,11 @@
     "jest-environment-jsdom": "^29.7.0",
     "jsdoc": "^4.0.2",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
+    "react": ">=18.*.*",
     "react-docgen-typescript": "^2.2.2",
-    "react-dom": "^18.2.0",
+    "react-dom": ">= 18.*.*",
     "rollup": "^4.6.1",
+    "rollup-plugin-typescript2": "^0.36.0",
     "semantic-release": "^22.0.10",
     "storybook": "^7.6.7",
     "ts-jest": "^29.1.1",

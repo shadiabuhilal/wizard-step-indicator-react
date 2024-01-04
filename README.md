@@ -20,10 +20,16 @@ WizardStepIndicator comoponent
 Example:
 
 ```js
+const [currentStepIndexState, setCurrentStepIndex] = useState(0);
+
+...
+
 <WizardStepIndicator
     stepsCount={5}
-    currentStepIndex={0}
-    onClick={(index)=> { /* DO SOMTHING */}}
+    currentStepIndex={currentStepIndexState}
+    onClick={(index)=> { 
+        setCurrentStepIndex(index);
+    }}
 />
 ```
 
