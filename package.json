@@ -1,7 +1,7 @@
 {
   "name": "wizard-step-indicator-react",
   "version": "1.0.0",
-  "description": "Wizard Step Indicator in React",
+  "description": "Wizard Step Indicator for React",
   "main": "index.js",
   "type": "module",
   "exports": {
