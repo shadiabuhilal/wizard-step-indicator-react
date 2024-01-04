@@ -12,4 +12,7 @@ jest.config.ts
 .storybook/
 tsconfig.json
 rollup.config.js
+.eslintignore                  
+.eslintrc.cjs
+CHANGELOG.md 
 wizard-step-indicator-react-*.tgz

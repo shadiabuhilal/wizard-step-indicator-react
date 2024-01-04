@@ -1,5 +1,5 @@
 import React from 'react';
-import WizardStepIndicator from '../src/index.tsx';
+import WizardStepIndicator from '../src/index';
 import {fireEvent, render, screen} from '@testing-library/react';
 
 describe('WizardStepIndicator', () => {

@@ -3,23 +3,35 @@
 
 Wizard Step Indicator for React
 
+Storybook:
+
 https://shadiabuhilal.github.io/wizard-step-indicator-react/
 
 -----------
 
 <img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react.gif" width="400" />
 
+<br/>
 Default Style:
-
+<br/>
 <img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-1.png" width="300" />
 
+<br/>
 Custom Style:
-
+<br/>
 <img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-2.png" width="300" />
+
+## Install
+```
+npm i wizard-step-indicator-react
+```
+
+-----------
 
 ## Usage
 
 ### import wizard-step-indicator-react
+
 ```js
 import WizardStepIndicator from 'wizard-step-indicator-react';
 ```

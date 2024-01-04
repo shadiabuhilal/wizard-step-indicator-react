@@ -1,6 +1,4 @@
 import commonjs from '@rollup/plugin-commonjs';
-// import nodeResolve from '@rollup/plugin-node-resolve';
-// import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import typescript from 'rollup-plugin-typescript2';
 import pkg from './package.json' assert {type: 'json'};
 
@@ -26,10 +24,6 @@ const external = [
 
 const commonjsOptions = {};
 
-const nodeResolveOptions = {
-    extensions: ['.js', '.tsx', '.ts'],
-};
-
 const rollupConfig = [
     {
         input,
@@ -40,8 +34,6 @@ const rollupConfig = [
         },
         external,
         plugins: [
-            // peerDepsExternal(),
-            // nodeResolve(nodeResolveOptions),
             commonjs(commonjsOptions),
             typescript({
                 tsconfigOverride: {
@@ -61,8 +53,6 @@ const rollupConfig = [
         },
         external,
         plugins: [
-            // peerDepsExternal(),
-            // nodeResolve(nodeResolveOptions),
             commonjs(commonjsOptions),
             typescript({
                 tsconfigOverride: {
