@@ -7,15 +7,15 @@ https://shadiabuhilal.github.io/wizard-step-indicator-react/
 
 -----------
 
-<video src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/WizardStepIndicator-Interactive-Demo.mp4" width="300"></video>
+<img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react.gif" width="400" />
 
 Default Style:
 
-<img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-1.png" width="200" />
+<img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-1.png" width="300" />
 
 Custom Style:
 
-<img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-2.png" width="200" />
+<img src="https://github.com/shadiabuhilal/wizard-step-indicator-react/raw/main/docs/screenshots/screenshot-wizard-step-indicator-react-2.png" width="300" />
 
 ## Usage
 
